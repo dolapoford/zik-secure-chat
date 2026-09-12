@@ -6,11 +6,12 @@ import org.springframework.messaging.handler.annotation.*;
 import org.springframework.messaging.simp.SimpMessagingTemplate;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Base64;
 import java.util.Map;
 
 /**
  * WebSocket STOMP controller for real-time encrypted messaging.
- * Also provides REST endpoints for session establishment and message history.
+ * Also provides REST endpoints for message send and history.
  */
 @RestController
 @CrossOrigin(origins = "*")
@@ -25,21 +26,6 @@ public class ChatWebSocketController {
     }
 
     /**
-     * REST endpoint to establish an encrypted session between two users.
-     */
-    @PostMapping("/api/chat/session")
-    public ResponseEntity<?> establishSession(@RequestBody Map<String, String> request) {
-        try {
-            String sender = request.get("sender");
-            String recipient = request.get("recipient");
-            Map<String, Object> result = messageService.establishSession(sender, recipient);
-            return ResponseEntity.ok(result);
-        } catch (Exception e) {
-            return ResponseEntity.badRequest().body(Map.of("error", e.getMessage()));
-        }
-    }
-
-    /**
      * REST endpoint to send an encrypted message.
      */
     @PostMapping("/api/chat/send")
@@ -47,13 +33,12 @@ public class ChatWebSocketController {
         try {
             String sender = request.get("sender");
             String recipient = request.get("recipient");
-            String message = request.get("message");
-            Map<String, Object> result = messageService.sendMessage(sender, recipient, message);
+            byte[] ciphertext = Base64.getDecoder().decode(request.get("ciphertext"));
+            byte[] header = Base64.getDecoder().decode(request.get("header"));
+            byte[] signature = Base64.getDecoder().decode(request.get("signature"));
+            Map<String, Object> result = messageService.sendMessage(sender, recipient, ciphertext, header, signature);
 
-            // Notify recipient via WebSocket
-            messagingTemplate.convertAndSendToUser(
-                    recipient, "/queue/messages", result);
-
+            messagingTemplate.convertAndSendToUser(recipient, "/queue/messages", result);
             return ResponseEntity.ok(result);
         } catch (Exception e) {
             return ResponseEntity.badRequest().body(Map.of("error", e.getMessage()));
@@ -65,17 +50,15 @@ public class ChatWebSocketController {
      */
     @MessageMapping("/chat.send")
     @SendTo("/topic/messages")
-    public Map<String, Object> handleChatMessage(@Payload Map<String, String> message) throws Exception {
+    public Map<String, Object> handleChatMessage(@Payload Map<String, String> message) {
         String sender = message.get("sender");
         String recipient = message.get("recipient");
-        String content = message.get("message");
+        byte[] ciphertext = Base64.getDecoder().decode(message.get("ciphertext"));
+        byte[] header = Base64.getDecoder().decode(message.get("header"));
+        byte[] signature = Base64.getDecoder().decode(message.get("signature"));
+        Map<String, Object> result = messageService.sendMessage(sender, recipient, ciphertext, header, signature);
 
-        Map<String, Object> result = messageService.sendMessage(sender, recipient, content);
-
-        // Also send to recipient's personal queue
-        messagingTemplate.convertAndSendToUser(
-                recipient, "/queue/messages", result);
-
+        messagingTemplate.convertAndSendToUser(recipient, "/queue/messages", result);
         return result;
     }
 
@@ -85,6 +68,10 @@ public class ChatWebSocketController {
     @GetMapping("/api/chat/history")
     public ResponseEntity<?> getChatHistory(
             @RequestParam String user1, @RequestParam String user2) {
-        return ResponseEntity.ok(messageService.getChatHistory(user1, user2));
+        try {
+            return ResponseEntity.ok(messageService.getChatHistory(user1, user2));
+        } catch (Exception e) {
+            return ResponseEntity.badRequest().body(Map.of("error", e.getMessage()));
+        }
     }
 }
