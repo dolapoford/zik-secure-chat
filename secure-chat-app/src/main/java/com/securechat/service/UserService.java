@@ -1,6 +1,5 @@
 package com.securechat.service;
 
-import com.securechat.crypto.*;
 import com.securechat.model.*;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -8,9 +7,9 @@ import org.springframework.stereotype.Service;
 import java.util.*;
 
 /**
- * User service handling registration, authentication, and key generation.
- * Key generation is performed server-side for this reference implementation;
- * in production, private keys would be generated and stored exclusively on the client.
+ * User service handling registration, authentication, and prekey storage.
+ * All cryptographic key material is generated client-side; this service only
+ * stores and serves public keys.
  */
 @Service
 public class UserService {
@@ -26,36 +25,26 @@ public class UserService {
     }
 
     /**
-     * Registers a new user with automatically generated cryptographic key pairs.
+     * Registers a new user with client-supplied public keys. Private keys
+     * are generated and held exclusively on the client and never reach this
+     * method.
      */
-    public Map<String, Object> register(String username, String password) {
+    public Map<String, Object> register(String username, String password,
+                                         byte[] identityPublicKey, byte[] signingPublicKey) {
         if (userRepository.existsByUsername(username)) {
             throw new IllegalArgumentException("Username already exists: " + username);
         }
 
         User user = new User(username, passwordEncoder.encode(password));
-
-        // Generate identity key pair (X25519 for key exchange)
-        X25519KeyExchange.KeyPair identityKeys = X25519KeyExchange.generateKeyPair();
-        user.setIdentityPublicKey(identityKeys.getPublicKey());
-        user.setIdentityPrivateKey(identityKeys.getPrivateKey());
-
-        // Generate signing key pair (Ed25519 for digital signatures)
-        Ed25519SignerUtil.SigningKeyPair signingKeys = Ed25519SignerUtil.generateKeyPair();
-        user.setSigningPublicKey(signingKeys.getPublicKey());
-        user.setSigningPrivateKey(signingKeys.getPrivateKey());
-
+        user.setIdentityPublicKey(identityPublicKey);
+        user.setSigningPublicKey(signingPublicKey);
         userRepository.save(user);
-
-        // Generate initial prekey bundle
-        generatePreKeyBundle(user);
 
         Map<String, Object> result = new HashMap<>();
         result.put("userId", user.getId());
         result.put("username", username);
         result.put("identityPublicKey", Base64.getEncoder().encodeToString(user.getIdentityPublicKey()));
         result.put("signingPublicKey", Base64.getEncoder().encodeToString(user.getSigningPublicKey()));
-
         return result;
     }
 
@@ -83,53 +72,55 @@ public class UserService {
     }
 
     /**
-     * Generates a prekey bundle for X3DH key agreement.
-     * Includes identity key, signed prekey, and one-time prekeys.
+     * Persists a batch of client-generated, client-signed prekeys. Each
+     * one-time prekey becomes its own consumable PreKeyBundle row, all
+     * sharing the same signed prekey and signature (mirroring how the
+     * client-side prekey generation batches them).
      */
-    public void generatePreKeyBundle(User user) {
-        // Generate signed prekey (SPK)
-        X25519KeyExchange.KeyPair signedPreKey = X25519KeyExchange.generateKeyPair();
+    public void storePreKeyBundle(String username, byte[] signedPreKey, byte[] signedPreKeySignature,
+                                   List<byte[]> oneTimePreKeys, byte[] signingPublicKey) {
+        User user = userRepository.findByUsername(username)
+                .orElseThrow(() -> new IllegalArgumentException("User not found: " + username));
 
-        // Sign the prekey with the identity signing key
-        byte[] signature = Ed25519SignerUtil.sign(signedPreKey.getPublicKey(), user.getSigningPrivateKey());
+        for (byte[] oneTimePreKey : oneTimePreKeys) {
+            PreKeyBundle bundle = new PreKeyBundle();
+            bundle.setUserId(user.getId());
+            bundle.setUsername(username);
+            bundle.setIdentityKey(user.getIdentityPublicKey());
+            bundle.setSignedPreKey(signedPreKey);
+            bundle.setSignedPreKeySignature(signedPreKeySignature);
+            bundle.setSigningPublicKey(signingPublicKey);
+            bundle.setOneTimePreKey(oneTimePreKey);
+            preKeyBundleRepository.save(bundle);
+        }
+    }
 
-        // Generate one-time prekey (OPK)
-        X25519KeyExchange.KeyPair oneTimePreKey = X25519KeyExchange.generateKeyPair();
-
-        PreKeyBundle bundle = new PreKeyBundle();
-        bundle.setUserId(user.getId());
-        bundle.setUsername(user.getUsername());
-        bundle.setIdentityKey(user.getIdentityPublicKey());
-        bundle.setSignedPreKey(signedPreKey.getPublicKey());
-        bundle.setSignedPreKeySignature(signature);
-        bundle.setOneTimePreKey(oneTimePreKey.getPublicKey());
-
-        preKeyBundleRepository.save(bundle);
+    public long countAvailablePreKeys(String username) {
+        return preKeyBundleRepository.countByUsernameAndConsumedFalse(username);
     }
 
     /**
-     * Fetches a user's prekey bundle for X3DH session establishment.
-     * Marks one-time prekey as consumed.
+     * Consumes and returns a user's full prekey bundle entity. Replenishment
+     * is entirely client-driven now (see storePreKeyBundle) since the server
+     * cannot generate a user's private prekey material on their behalf.
      */
-    public Map<String, String> fetchPreKeyBundle(String username) {
+    public PreKeyBundle fetchAndConsumePreKeyBundle(String username) {
         PreKeyBundle bundle = preKeyBundleRepository.findFirstByUsernameAndConsumedFalse(username)
                 .orElseThrow(() -> new IllegalArgumentException("No prekey bundle available for: " + username));
-
-        // Mark the one-time prekey as consumed
         bundle.setConsumed(true);
         preKeyBundleRepository.save(bundle);
+        return bundle;
+    }
 
-        // Generate a new prekey bundle if running low
-        User user = userRepository.findByUsername(username).orElse(null);
-        if (user != null && preKeyBundleRepository.countByUsernameAndConsumedFalse(username) < 5) {
-            generatePreKeyBundle(user);
-        }
+    public Map<String, String> fetchPreKeyBundle(String username) {
+        PreKeyBundle bundle = fetchAndConsumePreKeyBundle(username);
 
         Map<String, String> result = new HashMap<>();
         result.put("identityKey", Base64.getEncoder().encodeToString(bundle.getIdentityKey()));
         result.put("signedPreKey", Base64.getEncoder().encodeToString(bundle.getSignedPreKey()));
         result.put("signedPreKeySignature", Base64.getEncoder().encodeToString(bundle.getSignedPreKeySignature()));
         result.put("oneTimePreKey", Base64.getEncoder().encodeToString(bundle.getOneTimePreKey()));
+        result.put("signingPublicKey", Base64.getEncoder().encodeToString(bundle.getSigningPublicKey()));
         return result;
     }
 

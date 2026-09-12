@@ -4,6 +4,7 @@ import com.securechat.service.UserService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Base64;
 import java.util.Map;
 
 /**
@@ -25,7 +26,9 @@ public class AuthController {
         try {
             String username = request.get("username");
             String password = request.get("password");
-            Map<String, Object> result = userService.register(username, password);
+            byte[] identityPublicKey = Base64.getDecoder().decode(request.get("identityPublicKey"));
+            byte[] signingPublicKey = Base64.getDecoder().decode(request.get("signingPublicKey"));
+            Map<String, Object> result = userService.register(username, password, identityPublicKey, signingPublicKey);
             return ResponseEntity.ok(result);
         } catch (Exception e) {
             return ResponseEntity.badRequest().body(Map.of("error", e.getMessage()));
