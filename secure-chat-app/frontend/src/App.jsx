@@ -1,5 +1,8 @@
 import { useState, useEffect, useRef } from 'react'
 import './index.css'
+import { getOrCreateIdentity, ensurePrekeys } from './crypto/identity.js'
+import { ensureOutgoingSession, encryptMessage, decryptMessage } from './crypto/session.js'
+import { Ed25519, bytesToBase64, base64ToBytes } from './crypto/primitives.js'
 
 const API_BASE = 'http://localhost:8080/api'
 
@@ -23,14 +26,41 @@ function Login({ onLogin }) {
     e.preventDefault()
     setError('')
     try {
-      const endpoint = isRegister ? '/auth/register' : '/auth/login'
-      const data = await api(endpoint, {
-        method: 'POST',
-        body: JSON.stringify({ username, password }),
-      })
-      if (data.error) {
-        setError(data.error)
+      if (isRegister) {
+        const { identityKeyPair, signingKeyPair } = await getOrCreateIdentity(username)
+        const data = await api('/auth/register', {
+          method: 'POST',
+          body: JSON.stringify({
+            username,
+            password,
+            identityPublicKey: bytesToBase64(identityKeyPair.publicKey),
+            signingPublicKey: bytesToBase64(signingKeyPair.publicKey),
+          }),
+        })
+        if (data.error) {
+          setError(data.error)
+          return
+        }
+        await ensurePrekeys(username, API_BASE, signingKeyPair)
+        onLogin(data)
       } else {
+        const data = await api('/auth/login', {
+          method: 'POST',
+          body: JSON.stringify({ username, password }),
+        })
+        if (data.error) {
+          setError(data.error)
+          return
+        }
+        const { signingKeyPair, isNew } = await getOrCreateIdentity(username)
+        if (isNew) {
+          window.alert(
+            'This browser has no saved encryption keys for this account. ' +
+            'A new encryption identity has been generated and published — ' +
+            'conversations from other devices or browsers cannot be read here.'
+          )
+        }
+        await ensurePrekeys(username, API_BASE, signingKeyPair)
         onLogin(data)
       }
     } catch (err) {
@@ -128,6 +158,156 @@ function KeyVerificationModal({ safetyNumber, contactName, onClose }) {
         </p>
         <button className="modal-close-btn" onClick={onClose}>Done</button>
       </div>
+    </div>
+  )
+}
+
+// ─── New Group Modal ─────────────────────────────────────
+function NewGroupModal({ onCreate, onClose }) {
+  const [groupName, setGroupName] = useState('')
+  const [membersText, setMembersText] = useState('')
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    if (!groupName.trim()) return
+    const members = membersText.split(',').map((m) => m.trim()).filter(Boolean)
+    onCreate(groupName.trim(), members)
+  }
+
+  return (
+    <div className="modal-overlay" onClick={onClose}>
+      <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+        <h3>➕ New Encrypted Group</h3>
+        <form onSubmit={handleSubmit}>
+          <div className="form-group">
+            <label>Group Name</label>
+            <input
+              id="group-name-input"
+              type="text"
+              placeholder="e.g. Project Team"
+              value={groupName}
+              onChange={(e) => setGroupName(e.target.value)}
+              required
+            />
+          </div>
+          <div className="form-group">
+            <label>Members (comma-separated usernames)</label>
+            <input
+              id="group-members-input"
+              type="text"
+              placeholder="bob_test, carol_test"
+              value={membersText}
+              onChange={(e) => setMembersText(e.target.value)}
+            />
+          </div>
+          <button id="create-group-btn" type="submit" className="btn-primary">Create Group</button>
+        </form>
+        <button className="modal-close-btn" onClick={onClose}>Cancel</button>
+      </div>
+    </div>
+  )
+}
+
+// ─── Group Members Modal ─────────────────────────────────
+function GroupMembersModal({ members, currentUser, onAdd, onRemove, onClose }) {
+  const [newMember, setNewMember] = useState('')
+
+  const handleAdd = (e) => {
+    e.preventDefault()
+    if (newMember.trim()) {
+      onAdd(newMember.trim())
+      setNewMember('')
+    }
+  }
+
+  return (
+    <div className="modal-overlay" onClick={onClose}>
+      <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+        <h3>👥 Group Members</h3>
+        <div className="member-list">
+          {members.map((m) => (
+            <div key={m} className="member-row" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '6px 0' }}>
+              <span>{m}{m === currentUser ? ' (you)' : ''}</span>
+              {m !== currentUser && (
+                <button className="icon-btn" title="Remove member" onClick={() => onRemove(m)}>✕</button>
+              )}
+            </div>
+          ))}
+        </div>
+        <form onSubmit={handleAdd} className="message-input-area" style={{ marginTop: 12 }}>
+          <input
+            id="add-member-input"
+            type="text"
+            placeholder="Add member by username..."
+            value={newMember}
+            onChange={(e) => setNewMember(e.target.value)}
+          />
+          <button id="add-member-btn" type="submit" className="send-btn" disabled={!newMember.trim()}>+</button>
+        </form>
+        <button className="modal-close-btn" onClick={onClose}>Done</button>
+      </div>
+    </div>
+  )
+}
+
+// ─── Group Chat View ──────────────────────────────────────
+function GroupChatView({ currentUser, group, messages, onSend, onShowMembers }) {
+  const [input, setInput] = useState('')
+  const messagesEndRef = useRef(null)
+
+  useEffect(() => {
+    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' })
+  }, [messages])
+
+  const handleSend = (e) => {
+    e.preventDefault()
+    if (input.trim()) {
+      onSend(input.trim())
+      setInput('')
+    }
+  }
+
+  return (
+    <div className="chat-area">
+      <div className="chat-header">
+        <div className="chat-header-info">
+          <div className="contact-avatar">{group.groupName?.[0]?.toUpperCase() || 'G'}</div>
+          <div>
+            <h3>{group.groupName}</h3>
+            <div className="e2ee-indicator">
+              🔒 TreeKEM group · {group.memberCount} member{group.memberCount === 1 ? '' : 's'} · epoch {group.epoch}
+            </div>
+          </div>
+        </div>
+        <div className="chat-header-actions">
+          <button id="group-members-btn" className="icon-btn" title="Manage Members" onClick={onShowMembers}>
+            👥
+          </button>
+        </div>
+      </div>
+
+      <div className="messages-container">
+        <div className="system-message">
+          🔐 Group messages are encrypted with TreeKEM using the group's current epoch key.
+        </div>
+        {messages.map((msg, i) => (
+          <MessageBubble key={i} message={msg} currentUser={currentUser} />
+        ))}
+        <div ref={messagesEndRef} />
+      </div>
+
+      <form className="message-input-area" onSubmit={handleSend}>
+        <input
+          id="group-message-input"
+          type="text"
+          placeholder="Message the group..."
+          value={input}
+          onChange={(e) => setInput(e.target.value)}
+        />
+        <button id="group-send-btn" type="submit" className="send-btn" disabled={!input.trim()}>
+          ➤
+        </button>
+      </form>
     </div>
   )
 }
@@ -242,15 +422,44 @@ function App() {
   const [chatMessages, setChatMessages] = useState({})
   const [safetyNumbers, setSafetyNumbers] = useState({})
   const [search, setSearch] = useState('')
+  const [groups, setGroups] = useState([])
+  const [selectedGroup, setSelectedGroup] = useState(null)
+  const [groupMessages, setGroupMessages] = useState({})
+  const [showNewGroupModal, setShowNewGroupModal] = useState(false)
+  const [showGroupMembers, setShowGroupMembers] = useState(false)
 
-  // Load contacts on login
+  // Load contacts and groups on login
   useEffect(() => {
     if (user) {
       loadContacts()
-      const interval = setInterval(loadContacts, 5000)
+      loadGroups()
+      const interval = setInterval(() => {
+        loadContacts()
+        loadGroups()
+      }, 5000)
       return () => clearInterval(interval)
     }
   }, [user])
+
+  // Poll the decrypted chat history for the open conversation, so messages
+  // sent by the other party are actually retrieved, decrypted, and displayed
+  // rather than only ever appearing in the sender's own optimistic echo.
+  useEffect(() => {
+    if (user && selectedContact) {
+      loadHistory(selectedContact)
+      const interval = setInterval(() => loadHistory(selectedContact), 2000)
+      return () => clearInterval(interval)
+    }
+  }, [user, selectedContact])
+
+  // Poll the decrypted history of the open group in the same way.
+  useEffect(() => {
+    if (user && selectedGroup) {
+      loadGroupMessages(selectedGroup)
+      const interval = setInterval(() => loadGroupMessages(selectedGroup), 2000)
+      return () => clearInterval(interval)
+    }
+  }, [user, selectedGroup])
 
   const loadContacts = async () => {
     try {
@@ -263,19 +472,67 @@ function App() {
     }
   }
 
+  const loadGroups = async () => {
+    try {
+      const list = await api(`/groups/mine?username=${encodeURIComponent(user.username)}`)
+      if (Array.isArray(list)) {
+        setGroups(list)
+      }
+    } catch (e) {
+      console.log('Failed to load groups')
+    }
+  }
+
+  const loadGroupMessages = async (groupId) => {
+    try {
+      const history = await api(`/groups/${groupId}/messages`)
+      if (Array.isArray(history)) {
+        const mapped = history.map((m) => ({
+          sender: m.sender,
+          text: m.text,
+          time: new Date(m.timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
+        }))
+        setGroupMessages((prev) => ({ ...prev, [groupId]: mapped }))
+      }
+    } catch (e) {
+      console.log('Failed to load group messages')
+    }
+  }
+
+  const loadHistory = async (contact) => {
+    try {
+      const history = await api(
+        `/chat/history?user1=${encodeURIComponent(user.username)}&user2=${encodeURIComponent(contact)}`
+      )
+      if (Array.isArray(history)) {
+        const identity = await getOrCreateIdentity(user.username)
+        const mapped = []
+        for (const m of history) {
+          const text = await decryptMessage(user.username, identity.identityKeyPair, m)
+          mapped.push({
+            sender: m.sender,
+            text,
+            time: new Date(m.timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
+          })
+        }
+        setChatMessages((prev) => ({ ...prev, [contact]: mapped }))
+      }
+    } catch (e) {
+      console.log('Failed to load chat history')
+    }
+  }
+
   const handleSelectContact = async (contact) => {
     setSelectedContact(contact)
+    setSelectedGroup(null)
 
-    // Establish E2EE session if not already done
     if (!safetyNumbers[contact]) {
       try {
-        const session = await api('/chat/session', {
-          method: 'POST',
-          body: JSON.stringify({ sender: user.username, recipient: contact }),
-        })
-        if (session.safetyNumber) {
-          setSafetyNumbers((prev) => ({ ...prev, [contact]: session.safetyNumber }))
-        }
+        const identity = await getOrCreateIdentity(user.username)
+        const { safetyNumber } = await ensureOutgoingSession(
+          API_BASE, user.username, identity.identityKeyPair, identity.signingKeyPair, contact
+        )
+        setSafetyNumbers((prev) => ({ ...prev, [contact]: safetyNumber }))
       } catch (e) {
         console.log('Session establishment pending')
       }
@@ -285,28 +542,90 @@ function App() {
   const handleSendMessage = async (text) => {
     if (!selectedContact) return
 
-    const now = new Date()
-    const timeStr = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
-
-    // Add to local messages immediately
-    const newMsg = { sender: user.username, text, time: timeStr }
-    setChatMessages((prev) => ({
-      ...prev,
-      [selectedContact]: [...(prev[selectedContact] || []), newMsg],
-    }))
-
-    // Send encrypted message to server
     try {
+      const { ciphertext, header } = await encryptMessage(user.username, selectedContact, text)
+      const identity = await getOrCreateIdentity(user.username)
+      const signature = bytesToBase64(
+        Ed25519.sign(base64ToBytes(ciphertext), identity.signingKeyPair.privateKey)
+      )
       await api('/chat/send', {
         method: 'POST',
         body: JSON.stringify({
           sender: user.username,
           recipient: selectedContact,
-          message: text,
+          ciphertext,
+          header,
+          signature,
         }),
       })
+      await loadHistory(selectedContact)
     } catch (e) {
       console.log('Message send failed:', e)
+    }
+  }
+
+  const handleSelectGroup = (groupId) => {
+    setSelectedGroup(groupId)
+    setSelectedContact(null)
+  }
+
+  const handleSendGroupMessage = async (text) => {
+    if (!selectedGroup) return
+    try {
+      await api(`/groups/${selectedGroup}/messages`, {
+        method: 'POST',
+        body: JSON.stringify({ sender: user.username, message: text }),
+      })
+      await loadGroupMessages(selectedGroup)
+    } catch (e) {
+      console.log('Group message send failed:', e)
+    }
+  }
+
+  const handleCreateGroup = async (groupName, memberUsernames) => {
+    try {
+      const created = await api('/groups/create', {
+        method: 'POST',
+        body: JSON.stringify({ groupName, creator: user.username }),
+      })
+      for (const member of memberUsernames) {
+        if (member && member !== user.username) {
+          await api(`/groups/${created.groupId}/members`, {
+            method: 'POST',
+            body: JSON.stringify({ memberId: member }),
+          })
+        }
+      }
+      setShowNewGroupModal(false)
+      await loadGroups()
+      handleSelectGroup(created.groupId)
+    } catch (e) {
+      console.log('Group creation failed:', e)
+    }
+  }
+
+  const handleAddMember = async (username) => {
+    if (!selectedGroup) return
+    try {
+      await api(`/groups/${selectedGroup}/members`, {
+        method: 'POST',
+        body: JSON.stringify({ memberId: username }),
+      })
+      await loadGroups()
+    } catch (e) {
+      console.log('Add member failed:', e)
+    }
+  }
+
+  const handleRemoveMember = async (username) => {
+    if (!selectedGroup) return
+    try {
+      await api(`/groups/${selectedGroup}/members/${encodeURIComponent(username)}`, {
+        method: 'DELETE',
+      })
+      await loadGroups()
+    } catch (e) {
+      console.log('Remove member failed:', e)
     }
   }
 
@@ -317,8 +636,11 @@ function App() {
   const handleLogout = () => {
     setUser(null)
     setSelectedContact(null)
+    setSelectedGroup(null)
     setChatMessages({})
+    setGroupMessages({})
     setSafetyNumbers({})
+    setGroups([])
   }
 
   if (!user) {
@@ -383,6 +705,38 @@ function App() {
           )}
         </div>
 
+        <button id="new-group-btn" className="new-chat-btn" onClick={() => setShowNewGroupModal(true)}>
+          + New Group
+        </button>
+
+        <div className="contacts-list">
+          <div className="sidebar-section-title">Groups</div>
+          {groups.length === 0 ? (
+            <div className="empty-state">
+              <span>🔐</span>
+              <span>No groups yet</span>
+              <span style={{ fontSize: '0.75rem' }}>Create a group to start a TreeKEM-encrypted conversation</span>
+            </div>
+          ) : (
+            groups.map((group) => (
+              <div
+                key={group.groupId}
+                id={`group-${group.groupId}`}
+                className={`contact-item ${selectedGroup === group.groupId ? 'active' : ''}`}
+                onClick={() => handleSelectGroup(group.groupId)}
+              >
+                <div className="contact-avatar">{group.groupName?.[0]?.toUpperCase() || 'G'}</div>
+                <div className="contact-info">
+                  <div className="contact-name">{group.groupName}</div>
+                  <div className="contact-status encrypted">
+                    🔒 {group.memberCount} member{group.memberCount === 1 ? '' : 's'}
+                  </div>
+                </div>
+              </div>
+            ))
+          )}
+        </div>
+
         <button
           id="logout-btn"
           className="new-chat-btn"
@@ -402,8 +756,30 @@ function App() {
           onSend={handleSendMessage}
           safetyNumber={safetyNumbers[selectedContact]}
         />
+      ) : selectedGroup ? (
+        <GroupChatView
+          currentUser={user.username}
+          group={groups.find((g) => g.groupId === selectedGroup) || { groupName: 'Group', memberCount: 0, epoch: 0 }}
+          messages={groupMessages[selectedGroup] || []}
+          onSend={handleSendGroupMessage}
+          onShowMembers={() => setShowGroupMembers(true)}
+        />
       ) : (
         <WelcomePanel />
+      )}
+
+      {showNewGroupModal && (
+        <NewGroupModal onCreate={handleCreateGroup} onClose={() => setShowNewGroupModal(false)} />
+      )}
+
+      {showGroupMembers && selectedGroup && (
+        <GroupMembersModal
+          members={(groups.find((g) => g.groupId === selectedGroup) || {}).members || []}
+          currentUser={user.username}
+          onAdd={handleAddMember}
+          onRemove={handleRemoveMember}
+          onClose={() => setShowGroupMembers(false)}
+        />
       )}
     </div>
   )
