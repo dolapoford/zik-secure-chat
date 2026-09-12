@@ -3,6 +3,7 @@ import './index.css'
 import { getOrCreateIdentity, ensurePrekeys } from './crypto/identity.js'
 import { ensureOutgoingSession, encryptMessage, decryptMessage } from './crypto/session.js'
 import { Ed25519, bytesToBase64, base64ToBytes } from './crypto/primitives.js'
+import { cachePlaintext } from './crypto/keyStore.js'
 
 const API_BASE = 'http://localhost:8080/api'
 
@@ -548,7 +549,7 @@ function App() {
       const signature = bytesToBase64(
         Ed25519.sign(base64ToBytes(ciphertext), identity.signingKeyPair.privateKey)
       )
-      await api('/chat/send', {
+      const response = await api('/chat/send', {
         method: 'POST',
         body: JSON.stringify({
           sender: user.username,
@@ -558,6 +559,7 @@ function App() {
           signature,
         }),
       })
+      await cachePlaintext(user.username, response.messageId, text)
       await loadHistory(selectedContact)
     } catch (e) {
       console.log('Message send failed:', e)
