@@ -25,16 +25,8 @@ public class User {
     private byte[] identityPublicKey;
 
     @Lob
-    @Column(name = "identity_private_key")
-    private byte[] identityPrivateKey;
-
-    @Lob
     @Column(name = "signing_public_key")
     private byte[] signingPublicKey;
-
-    @Lob
-    @Column(name = "signing_private_key")
-    private byte[] signingPrivateKey;
 
     @Column(name = "online")
     private boolean online = false;
@@ -59,14 +51,8 @@ public class User {
     public byte[] getIdentityPublicKey() { return identityPublicKey; }
     public void setIdentityPublicKey(byte[] identityPublicKey) { this.identityPublicKey = identityPublicKey; }
 
-    public byte[] getIdentityPrivateKey() { return identityPrivateKey; }
-    public void setIdentityPrivateKey(byte[] identityPrivateKey) { this.identityPrivateKey = identityPrivateKey; }
-
     public byte[] getSigningPublicKey() { return signingPublicKey; }
     public void setSigningPublicKey(byte[] signingPublicKey) { this.signingPublicKey = signingPublicKey; }
-
-    public byte[] getSigningPrivateKey() { return signingPrivateKey; }
-    public void setSigningPrivateKey(byte[] signingPrivateKey) { this.signingPrivateKey = signingPrivateKey; }
 
     public boolean isOnline() { return online; }
     public void setOnline(boolean online) { this.online = online; }

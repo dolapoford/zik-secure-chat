@@ -41,6 +41,13 @@ public class PreKeyBundle {
     @Column(name = "one_time_prekey")
     private byte[] oneTimePreKey;
 
+    /** Signing (Ed25519) public key of the bundle owner, uploaded alongside
+     * the prekeys so a sender can verify the signed-prekey signature without
+     * a separate lookup. */
+    @Lob
+    @Column(name = "signing_public_key")
+    private byte[] signingPublicKey;
+
     @Column(name = "created_at")
     private Instant createdAt;
 
@@ -72,6 +79,9 @@ public class PreKeyBundle {
 
     public byte[] getOneTimePreKey() { return oneTimePreKey; }
     public void setOneTimePreKey(byte[] oneTimePreKey) { this.oneTimePreKey = oneTimePreKey; }
+
+    public byte[] getSigningPublicKey() { return signingPublicKey; }
+    public void setSigningPublicKey(byte[] signingPublicKey) { this.signingPublicKey = signingPublicKey; }
 
     public Instant getCreatedAt() { return createdAt; }
     public void setCreatedAt(Instant createdAt) { this.createdAt = createdAt; }
