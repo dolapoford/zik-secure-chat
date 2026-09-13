@@ -60,6 +60,20 @@ public class GroupController {
         }
     }
 
+    @GetMapping("/{groupId}/messages")
+    public ResponseEntity<?> getGroupMessages(@PathVariable String groupId) {
+        try {
+            return ResponseEntity.ok(groupService.getGroupMessages(groupId));
+        } catch (Exception e) {
+            return ResponseEntity.badRequest().body(Map.of("error", e.getMessage()));
+        }
+    }
+
+    @GetMapping("/mine")
+    public ResponseEntity<?> myGroups(@RequestParam String username) {
+        return ResponseEntity.ok(groupService.listGroupsForUser(username));
+    }
+
     @GetMapping
     public ResponseEntity<?> listGroups() {
         return ResponseEntity.ok(groupService.listGroups());

@@ -40,6 +40,15 @@ public class Message {
     @Column(name = "signature")
     private byte[] signature;
 
+    /**
+     * Decrypted plaintext, cached after the first successful decrypt so that
+     * Double Ratchet message keys — which are single-use — are never consumed
+     * twice for the same stored message. Null until decrypted.
+     */
+    @Lob
+    @Column(name = "plaintext")
+    private String plaintext;
+
     @Column(name = "timestamp")
     private Instant timestamp;
 
@@ -74,6 +83,9 @@ public class Message {
 
     public byte[] getSignature() { return signature; }
     public void setSignature(byte[] signature) { this.signature = signature; }
+
+    public String getPlaintext() { return plaintext; }
+    public void setPlaintext(String plaintext) { this.plaintext = plaintext; }
 
     public Instant getTimestamp() { return timestamp; }
     public void setTimestamp(Instant timestamp) { this.timestamp = timestamp; }
