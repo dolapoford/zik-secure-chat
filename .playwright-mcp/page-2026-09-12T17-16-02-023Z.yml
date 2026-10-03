@@ -1,0 +1,97 @@
+- generic [ref=f1e2]:
+  - paragraph [ref=f1e3]:
+    - combobox [ref=f1e4]:
+      - option "Čeština"
+      - option "Deutsch"
+      - option "English" [selected]
+      - option "Español"
+      - option "Français"
+      - option "Hindi हिंदी"
+      - option "Magyar"
+      - option "한국어"
+      - option "Indonesia"
+      - option "Italiano"
+      - option "日本語"
+      - option "Nederlands"
+      - option "Polski"
+      - option "Português (Brasil)"
+      - option "Português (Europeu)"
+      - option "русский"
+      - option "Slovensky"
+      - option "Türkçe"
+      - option "Українська"
+      - option "中文 (简体)"
+      - option "中文 (繁體)"
+    - link "Preferences" [ref=f1e5] [cursor=pointer]:
+      - /url: admin.do?jsessionid=37f3fb09c3e3f5c5d255ea7e8a914100
+    - link "Tools" [ref=f1e6] [cursor=pointer]:
+      - /url: tools.jsp?jsessionid=37f3fb09c3e3f5c5d255ea7e8a914100
+    - link "Help" [ref=f1e7] [cursor=pointer]:
+      - /url: help.jsp?jsessionid=37f3fb09c3e3f5c5d255ea7e8a914100
+  - table [ref=f1e8]:
+    - rowgroup [ref=f1e9]:
+      - row [ref=f1e10]:
+        - columnheader "Login" [ref=f1e11]
+        - columnheader [ref=f1e12]
+      - row [ref=f1e13]:
+        - cell [ref=f1e14]
+      - row [ref=f1e15]:
+        - cell "Saved Settings:" [ref=f1e16]
+        - cell "Generic H2 (Embedded)" [ref=f1e17]:
+          - combobox [ref=f1e18]:
+            - option "Generic H2 (Embedded)" [selected]
+            - option "Generic H2 (Server)"
+            - option "Generic Derby (Embedded)"
+            - option "Generic Derby (Server)"
+            - option "Generic HSQLDB"
+            - option "Generic MariaDB"
+            - option "Generic MySQL"
+            - option "Generic PostgreSQL"
+            - option "Generic MS SQL Server 2005"
+            - option "Generic MS SQL Server 2000"
+            - option "Generic Oracle"
+            - option "Generic DB2"
+            - option "Generic SQLite"
+            - option "Generic Firebird Server"
+            - option "Generic Azure SQL"
+            - option "Generic Hive"
+            - option "Generic Hive 2"
+            - option "Generic Impala"
+            - option "Generic Redshift"
+            - option "Generic Snowflake"
+            - option "Generic Teradata"
+            - option "Generic JNDI Data Source"
+      - row [ref=f1e19]:
+        - cell "Setting Name:" [ref=f1e20]
+        - cell [ref=f1e21]:
+          - textbox [ref=f1e22]: Generic H2 (Embedded)
+          - button "Save" [ref=f1e23]
+          - button "Remove" [ref=f1e24]
+      - row [ref=f1e25]:
+        - cell [ref=f1e26]:
+          - separator [ref=f1e27]
+      - row [ref=f1e28]:
+        - cell "Driver Class:" [ref=f1e29]
+        - cell [ref=f1e30]:
+          - textbox [ref=f1e31]: org.h2.Driver
+      - row [ref=f1e32]:
+        - cell [ref=f1e33]:
+          - link "JDBC URL" [ref=f1e34] [cursor=pointer]:
+            - /url: "#"
+          - text: ":"
+        - cell [ref=f1e35]:
+          - textbox [ref=f1e36]: jdbc:h2:~/test
+      - row [ref=f1e37]:
+        - cell "User Name:" [ref=f1e38]
+        - cell [ref=f1e39]:
+          - textbox [ref=f1e40]: sa
+      - row [ref=f1e41]:
+        - cell "Password:" [ref=f1e42]
+        - cell [ref=f1e43]:
+          - textbox [ref=f1e44]
+      - row [ref=f1e45]:
+        - cell [ref=f1e46]
+        - cell [ref=f1e47]:
+          - button "Connect" [ref=f1e48]
+          - button "Test Connection" [ref=f1e49]
+  - paragraph

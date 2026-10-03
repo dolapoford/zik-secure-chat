@@ -1,0 +1,14 @@
+- generic [ref=f2e4]:
+  - generic [ref=f2e5]: 🔐
+  - heading "SecureChat" [level=1] [ref=f2e7]
+  - paragraph [ref=f2e8]: End-to-End Encrypted Messaging
+  - generic [ref=f2e9]: 🛡️ Signal Protocol • AES-256-GCM • Ed25519
+  - generic [ref=f2e10]:
+    - generic [ref=f2e11]:
+      - generic [ref=f2e12]: Username
+      - textbox "Enter your username" [ref=f2e13]: henry_test
+    - generic [ref=f2e14]:
+      - generic [ref=f2e15]: Password
+      - textbox "Enter your password" [ref=f2e16]: HenryPass123!
+    - button "🔓 Sign In" [ref=f2e17] [cursor=pointer]
+  - button "New here? Create an account" [ref=f2e18] [cursor=pointer]

@@ -1,0 +1,47 @@
+- generic [ref=f4e19]:
+  - generic [ref=f4e20]:
+    - generic [ref=f4e21]:
+      - heading "🔐 SecureChat" [level=2] [ref=f4e22]
+      - generic [ref=f4e23]: frank_test
+    - textbox "🔍 Search contacts..." [ref=f4e26]
+    - button "+ New Encrypted Chat" [ref=f4e27] [cursor=pointer]
+    - generic [ref=f4e28]:
+      - generic [ref=f4e29]: Contacts
+      - generic [ref=f4e30] [cursor=pointer]:
+        - generic [ref=f4e31]: E
+        - generic [ref=f4e32]:
+          - generic [ref=f4e33]: erin_test
+          - generic [ref=f4e34]: 🔓 Tap to encrypt
+      - generic [ref=f4e35] [cursor=pointer]:
+        - generic [ref=f4e36]: G
+        - generic [ref=f4e37]:
+          - generic [ref=f4e38]: grace_test
+          - generic [ref=f4e39]: 🔓 Tap to encrypt
+    - button "+ New Group" [ref=f4e40] [cursor=pointer]
+    - generic [ref=f4e41]:
+      - generic [ref=f4e42]: Groups
+      - generic [ref=f4e43] [cursor=pointer]:
+        - generic [ref=f4e44]: P
+        - generic [ref=f4e45]:
+          - generic [ref=f4e46]: Project Team
+          - generic [ref=f4e47]: 🔒 3 members
+    - button "Sign Out" [ref=f4e48] [cursor=pointer]
+  - generic [ref=f4e62]:
+    - generic [ref=f4e63]:
+      - generic [ref=f4e64]:
+        - generic [ref=f4e65]: P
+        - generic [ref=f4e66]:
+          - heading "Project Team" [level=3] [ref=f4e67]
+          - generic [ref=f4e68]: 🔒 TreeKEM group · 3 members · epoch 2
+      - button "👥" [ref=f4e70] [cursor=pointer]
+    - generic [ref=f4e71]:
+      - generic [ref=f4e72]: 🔐 Group messages are encrypted with TreeKEM using the group's current epoch key.
+      - generic [ref=f4e73]:
+        - generic [ref=f4e74]: erin_test
+        - generic [ref=f4e75]: Hi team, this is the first encrypted group message.
+        - generic [ref=f4e76]:
+          - generic [ref=f4e77]: 08:13 PM
+          - generic [ref=f4e78]: 🔒
+    - generic [ref=f4e79]:
+      - textbox "Message the group..." [ref=f4e80]
+      - button "➤" [disabled] [ref=f4e81]

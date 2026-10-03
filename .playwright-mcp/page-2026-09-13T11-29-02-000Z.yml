@@ -1,0 +1,45 @@
+- generic [ref=f2e21]:
+  - generic [ref=f2e22]:
+    - generic [ref=f2e23]:
+      - heading "🔐 SecureChat" [level=2] [ref=f2e24]
+      - generic [ref=f2e25]: jade_test
+    - textbox "🔍 Search contacts..." [ref=f2e28]
+    - button "+ New Encrypted Chat" [ref=f2e29] [cursor=pointer]
+    - generic [ref=f2e30]:
+      - generic [ref=f2e31]: Contacts
+      - generic [ref=f2e57] [cursor=pointer]:
+        - generic [ref=f2e58]: K
+        - generic [ref=f2e59]:
+          - generic [ref=f2e60]: kai_test
+          - generic [ref=f2e61]: 🔓 Tap to encrypt
+    - button "+ New Group" [active] [ref=f2e36] [cursor=pointer]
+    - generic [ref=f2e37]:
+      - generic [ref=f2e38]: Groups
+      - generic [ref=f2e39]:
+        - generic [ref=f2e40]: 🔐
+        - generic [ref=f2e41]: No groups yet
+        - generic [ref=f2e42]: Create a group to start a TreeKEM-encrypted conversation
+    - button "Sign Out" [ref=f2e43] [cursor=pointer]
+  - generic [ref=f2e45]:
+    - generic [ref=f2e46]: 🛡️
+    - heading "SecureChat E2EE" [level=2] [ref=f2e47]
+    - paragraph [ref=f2e48]: Select a contact to start an end-to-end encrypted conversation. All messages are protected by the Signal Protocol.
+    - generic [ref=f2e49]:
+      - generic [ref=f2e50]: Signal Protocol
+      - generic [ref=f2e51]: X3DH Key Agreement
+      - generic [ref=f2e52]: Double Ratchet
+      - generic [ref=f2e53]: AES-256-GCM
+      - generic [ref=f2e54]: Ed25519 Signatures
+      - generic [ref=f2e55]: TreeKEM Groups
+      - generic [ref=f2e56]: HKDF-SHA256
+  - generic [ref=f2e63]:
+    - heading "➕ New Encrypted Group" [level=3] [ref=f2e64]
+    - generic [ref=f2e65]:
+      - generic [ref=f2e66]:
+        - generic [ref=f2e67]: Group Name
+        - textbox "e.g. Project Team" [ref=f2e68]
+      - generic [ref=f2e69]:
+        - generic [ref=f2e70]: Members (comma-separated usernames)
+        - textbox "bob_test, carol_test" [ref=f2e71]
+      - button "Create Group" [ref=f2e72] [cursor=pointer]
+    - button "Cancel" [ref=f2e73] [cursor=pointer]

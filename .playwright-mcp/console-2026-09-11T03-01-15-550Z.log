@@ -1,0 +1,749 @@
+[      73ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=090c83cd:14333
+[     185ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5173/:0
+[  111266ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  111266ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  111510ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:5173/@vite/client:998
+[  113267ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  113267ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  113309ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  113309ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  115273ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  115273ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  117271ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  117271ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  118321ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  118322ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  119269ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  119269ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  121267ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  121267ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  123265ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  123265ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  123309ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  123309ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  125274ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  125274ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  127265ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  127265ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  128310ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  128310ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  129274ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  129274ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  131273ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  131273ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  133271ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  133271ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  133309ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  133309ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  135269ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  135269ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  137267ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  137267ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  138316ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  138316ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  139264ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  139264ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  141274ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  141274ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  143270ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  143270ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  143311ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  143311ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  145275ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  145275ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  147273ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  147273ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  148332ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  148332ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  149266ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  149266ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  151269ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  151269ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  153265ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  153265ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  153312ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  153312ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  155265ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  155265ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  157275ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  157275ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  158313ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  158313ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  159269ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  159269ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  161275ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  161275ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  163266ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  163266ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  163313ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  163313ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  165271ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  165271ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  167314ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  167314ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  168308ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  168308ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  169266ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  169267ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  171271ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  171271ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  173269ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  173269ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  173313ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  173313ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  175264ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  175264ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  177275ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  177275ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  178307ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  178307ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  179269ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  179269ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  181270ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  181270ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  183265ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  183265ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  183312ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  183312ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  185266ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  185266ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  187266ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  187266ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  188318ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  188318ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  189283ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  189285ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  191279ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  191279ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  193276ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  193279ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  193362ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  193379ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  195266ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  195266ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  197267ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  197268ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  198563ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  198563ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  199270ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  199275ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  201283ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  201285ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  203271ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  203271ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  203318ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  203318ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  205268ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  205268ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  207673ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  207673ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  208309ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  208309ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  209326ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  209326ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  211303ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  211306ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  213280ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  213280ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  213311ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  213311ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  215276ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  215276ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  217272ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  217273ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  218322ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  218322ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  219278ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  219278ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  221287ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  221289ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  223268ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  223268ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  223315ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  223315ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  225292ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  225293ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  227277ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  227277ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  228316ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  228316ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  229275ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  229280ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  231266ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  231266ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  233265ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  233265ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  233313ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  233313ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  235273ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  235273ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  237274ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  237274ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  238310ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  238310ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  239268ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  239268ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  241266ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  241266ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  243279ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  243279ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  243309ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  243310ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  245281ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  245282ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  247272ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  247272ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  248312ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  248312ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  249277ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  249277ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  251277ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  251277ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  253269ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  253275ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  253326ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  253326ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  255278ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  255279ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  257280ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  257280ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  258319ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  258319ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  259280ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  259280ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  261273ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  261273ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  263331ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  263331ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  263332ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  263333ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  265270ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  265270ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  267269ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  267269ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  268320ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  268321ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  269281ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  269281ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  271276ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  271276ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  273265ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  273265ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  273307ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  273308ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  275276ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  275276ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  277278ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  277279ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  278317ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  278318ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  279270ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  279270ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  281281ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  281282ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  283279ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  283279ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  283310ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  283310ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  285270ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  285270ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  287270ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  287270ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  288310ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  288310ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  289266ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  289266ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  291267ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  291267ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  293271ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  293272ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  293465ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  293469ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  295267ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  295268ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  297271ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  297271ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  298327ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  298329ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  299266ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  299266ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  301266ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  301266ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  303271ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  303271ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  303318ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  303318ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  305267ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  305267ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  307272ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  307279ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  308307ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  308307ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  309266ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  309267ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  311275ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  311275ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  313270ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  313270ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  313317ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  313317ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  315276ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  315276ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  317267ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  317268ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  318321ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  318321ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  319267ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  319267ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  321270ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  321270ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  323272ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  323272ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  323320ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  323320ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  325266ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  325266ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  327283ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  327283ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  328314ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  328314ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  329271ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  329271ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  331272ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  331272ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  333269ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  333270ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  333316ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  333317ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  335279ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  335280ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  337273ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  337273ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  338313ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  338313ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  339272ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  339273ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  341267ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  341267ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  343266ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  343266ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  343312ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  343313ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  345278ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  345278ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  347275ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  347275ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  348314ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  348314ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  349274ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  349274ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  351272ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  351272ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  353273ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  353273ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  353320ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  353320ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  355270ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  355270ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  357275ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  357275ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  358314ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  358315ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  359276ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  359277ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  361279ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  361281ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  363278ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  363278ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  363309ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  363309ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  365278ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  365278ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  367277ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  367278ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  368314ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  368314ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  369275ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  369275ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  371270ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  371270ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  373265ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  373266ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  373312ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  373312ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  375275ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  375276ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  377265ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  377265ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  378318ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  378318ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  379266ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  379266ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  381278ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  381278ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  383279ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  383279ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  383311ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  383311ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  385272ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  385272ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  387301ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  387303ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  388313ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  388313ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  389268ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  389268ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  391273ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  391273ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  393268ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  393268ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  393314ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  393314ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  395281ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  395282ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  397276ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  397276ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  398315ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  398322ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  399268ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  399268ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  401270ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  401271ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  403281ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  403281ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  403313ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  403313ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  405276ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  405276ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  407276ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  407276ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  408371ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  408372ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  409267ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  409268ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  411277ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  411278ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  413275ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  413275ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  413323ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  413323ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  415272ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  415272ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  417274ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  417274ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  418310ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  418310ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  419275ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  419275ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  421279ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  421279ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  423266ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  423266ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  423313ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  423314ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  425279ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  425279ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  427270ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  427270ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  428314ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  428314ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  429410ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  429410ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  431267ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  431267ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  433280ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  433280ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  433311ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  433312ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  435274ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  435274ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  437282ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  437283ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  438314ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  438314ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  439279ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  439283ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  441277ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  441277ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  443276ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  443276ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  443308ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  443308ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  445275ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  445275ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  447267ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  447267ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  448319ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  448320ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  449279ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  449279ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  451266ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  451266ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  453279ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  453279ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  453311ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  453311ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  455305ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  455306ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  457285ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  457285ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  458309ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  458309ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  459271ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  459272ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  461272ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  461273ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  463277ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  463277ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  463309ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  463310ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  465277ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  465277ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  467275ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  467276ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  468318ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  468318ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  469282ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  469282ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  471280ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  471280ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  473283ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  473283ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  473312ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  473314ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  475281ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  475281ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  477514ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  477514ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  478312ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  478312ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  479296ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  479327ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  481356ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  481356ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  483272ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  483272ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  483321ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  483323ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  485269ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  485269ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  487269ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  487269ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  488310ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  488310ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  489275ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  489276ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  491274ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  491274ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  493272ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  493272ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  493318ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  493318ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  495275ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  495275ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  497276ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  497276ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  498316ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  498316ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  499274ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  499274ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  501291ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  501292ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  503281ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  503294ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  503312ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  503312ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  505317ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  505317ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  507276ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  507276ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  508317ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  508325ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  509272ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  509272ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  511274ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  511274ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  513354ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  513354ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  513356ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  513356ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  515275ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  515276ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  517285ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  517285ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  518314ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  518314ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  519273ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  519273ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  521272ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  521272ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  523270ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  523270ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  523318ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  523318ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  525273ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  525273ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  527275ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  527275ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  528317ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  528317ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  529274ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  529274ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  531269ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  531270ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  533277ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  533277ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  533309ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  533309ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  535280ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  535280ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  537265ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  537265ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  538319ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  538319ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  539279ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  539279ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  541266ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  541266ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  543267ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  543267ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  543314ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  543315ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  545272ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  545272ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  547268ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  547268ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  548310ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  548310ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  549268ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  549271ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  551267ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  551267ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  553280ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  553280ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  553311ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  553311ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  555278ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  555278ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  557278ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  557279ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  558320ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  558320ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  559266ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  559266ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  561274ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  561274ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  563276ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  563276ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  563308ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  563308ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  565275ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  565276ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  567275ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  567275ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  568318ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  568318ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  569279ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  569279ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  571279ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  571279ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  573279ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  573279ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  573310ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  573310ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  575271ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  575271ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  577274ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  577275ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  578317ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  578317ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  579275ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  579275ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  581274ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  581274ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  583273ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  583273ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  583320ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  583321ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  585274ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  585274ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  587416ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  587422ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  588310ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  588310ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  589267ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  589268ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  591278ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  591279ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  593331ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  593332ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  593350ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  593350ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  595279ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  595279ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  597266ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  597266ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  598319ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  598319ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  599276ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  599276ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  601330ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  601334ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  603668ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  603677ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  603680ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  603682ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  605279ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  605293ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  607290ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  607291ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  608322ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  608322ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  609287ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  609327ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  611272ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  611272ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  613274ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  613277ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  613318ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  613319ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  615268ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  615269ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  617272ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  617272ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  618344ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  618361ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  619305ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  619321ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  622003ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  622004ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  623275ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  623276ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  623325ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  623328ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  625275ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  625276ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  627274ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  627274ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  628323ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  628323ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  629271ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  629271ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  631350ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  631427ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  633293ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  633296ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  633654ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  633658ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  636116ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  636116ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  637609ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  637609ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  639024ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  639024ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:598
+[  639287ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  639287ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  641302ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=dave_test&user2=carol_test:0
+[  641302ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:619
+[  642487ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=090c83cd:14333
+[  642544ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5173/:0

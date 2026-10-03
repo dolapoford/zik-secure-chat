@@ -1,0 +1,42 @@
+- generic [ref=e21]:
+  - generic [ref=e22]:
+    - generic [ref=e23]:
+      - heading "🔐 SecureChat" [level=2] [ref=e24]
+      - generic [ref=e25]: kai_test
+    - textbox "🔍 Search contacts..." [ref=e28]
+    - button "+ New Encrypted Chat" [ref=e29] [cursor=pointer]
+    - generic [ref=e30]:
+      - generic [ref=e31]: Contacts
+      - generic [ref=e32] [cursor=pointer]:
+        - generic [ref=e33]: J
+        - generic [ref=e34]:
+          - generic [ref=e35]: jade_test
+          - generic [ref=e36]: 🔒 E2EE Active
+    - button "+ New Group" [ref=e37] [cursor=pointer]
+    - generic [ref=e38]:
+      - generic [ref=e39]: Groups
+      - generic [ref=e58] [cursor=pointer]:
+        - generic [ref=e59]: P
+        - generic [ref=e60]:
+          - generic [ref=e61]: Persistence Test Group
+          - generic [ref=e62]: 🔒 2 members
+    - button "Sign Out" [ref=e44] [cursor=pointer]
+  - generic [ref=e77]:
+    - generic [ref=e78]:
+      - generic [ref=e79]:
+        - generic [ref=e80]: P
+        - generic [ref=e81]:
+          - heading "Persistence Test Group" [level=3] [ref=e82]
+          - generic [ref=e83]: 🔒 TreeKEM group · 2 members · epoch 1
+      - button "👥" [ref=e85] [cursor=pointer]
+    - generic [ref=e86]:
+      - generic [ref=e87]: 🔐 Group messages are encrypted with TreeKEM using the group's current epoch key.
+      - generic [ref=e88]:
+        - generic [ref=e89]: jade_test
+        - generic [ref=e90]: Hello group, this is jade's first message!
+        - generic [ref=e91]:
+          - generic [ref=e92]: 03:51 AM
+          - generic [ref=e93]: 🔒
+    - generic [ref=e94]:
+      - textbox "Message the group..." [ref=e95]
+      - button "➤" [disabled] [ref=e96]

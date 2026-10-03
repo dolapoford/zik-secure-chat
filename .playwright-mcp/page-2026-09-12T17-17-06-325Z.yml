@@ -1,0 +1,163 @@
+- generic [ref=f2e1]:
+  - iframe [ref=f2e2]:
+    - table [ref=f3e3]:
+      - rowgroup [ref=f3e4]:
+        - row [ref=f3e5]:
+          - cell [ref=f3e6]:
+            - link [ref=f3e7] [cursor=pointer]:
+              - /url: logout.do?jsessionid=37f3fb09c3e3f5c5d255ea7e8a914100
+              - img "Disconnect" [ref=f3e8]
+            - link [ref=f3e9] [cursor=pointer]:
+              - /url: tables.do?jsessionid=37f3fb09c3e3f5c5d255ea7e8a914100
+              - img "Refresh" [ref=f3e10]
+          - cell [ref=f3e11]:
+            - checkbox [checked] [ref=f3e12]
+          - cell "Auto commit" [ref=f3e13]
+          - cell [ref=f3e14]:
+            - link [ref=f3e15] [cursor=pointer]:
+              - /url: query.do?jsessionid=37f3fb09c3e3f5c5d255ea7e8a914100&sql=ROLLBACK
+              - img "Rollback" [ref=f3e16]
+            - link [ref=f3e17] [cursor=pointer]:
+              - /url: query.do?jsessionid=37f3fb09c3e3f5c5d255ea7e8a914100&sql=COMMIT
+              - img "Commit" [ref=f3e18]
+          - cell "Max rows:" [ref=f3e19]
+          - cell "1000" [ref=f3e20]:
+            - combobox [ref=f3e21]:
+              - option "All"
+              - option "10000"
+              - option "1000" [selected]
+              - option "100"
+              - option "10"
+          - cell [ref=f3e22]:
+            - link [ref=f3e23] [cursor=pointer]:
+              - /url: javascript:parent.h2query.submitAll();
+              - img "Run" [ref=f3e24]
+          - cell [ref=f3e25]:
+            - link [ref=f3e26] [cursor=pointer]:
+              - /url: javascript:parent.h2query.submitSelected();
+              - img "Run Selected" [ref=f3e27]
+          - cell [ref=f3e28]:
+            - link [ref=f3e29] [cursor=pointer]:
+              - /url: query.do?jsessionid=37f3fb09c3e3f5c5d255ea7e8a914100&sql=@cancel.
+              - img "Cancel the current statement" [ref=f3e30]
+            - link [ref=f3e31] [cursor=pointer]:
+              - /url: query.do?jsessionid=37f3fb09c3e3f5c5d255ea7e8a914100&sql=@history.
+              - img "Command history" [ref=f3e32]
+          - cell "Auto complete Off" [ref=f3e33]:
+            - text: Auto complete
+            - combobox [ref=f3e34]:
+              - option "Off" [selected]
+              - option "Normal"
+              - option "Full"
+          - cell "Auto select On" [ref=f3e35]:
+            - text: Auto select
+            - combobox [ref=f3e36]:
+              - option "Off"
+              - option "On" [selected]
+          - cell [ref=f3e37]:
+            - link [ref=f3e38] [cursor=pointer]:
+              - /url: help.jsp?jsessionid=37f3fb09c3e3f5c5d255ea7e8a914100
+              - img "Help" [ref=f3e39]
+  - generic [ref=f2e3]:
+    - iframe [ref=f2e4]:
+      - generic [ref=f4e1]:
+        - generic [ref=f4e2]:
+          - text: jdbc:h2:mem:securechatdb
+          - link "MESSAGES" [ref=f4e6] [cursor=pointer]:
+            - /url: javascript:ins('MESSAGES',true)
+          - link "PREKEY_BUNDLES" [ref=f4e9] [cursor=pointer]:
+            - /url: javascript:ins('PREKEY_BUNDLES',true)
+          - link "USERS" [ref=f4e12] [cursor=pointer]:
+            - /url: javascript:ins('USERS',true)
+          - text: INFORMATION_SCHEMA Users H2 2.2.224 (2023-09-17)
+        - paragraph
+    - generic [ref=f2e5]:
+      - iframe [active] [ref=f2e6]:
+        - generic [ref=f5e2]:
+          - generic [ref=f5e3]:
+            - button "Run" [ref=f5e4]
+            - button "Run Selected" [ref=f5e5]
+            - button "Auto complete" [ref=f5e6]
+            - button "Clear" [ref=f5e7]
+            - text: "SQL statement:"
+          - textbox [active] [ref=f5e8]: SELECT * FROM MESSAGES;
+      - iframe [ref=f2e7]:
+        - generic [ref=f6e1]:
+          - generic [ref=f6e2]:
+            - text: SELECT * FROM MESSAGES;
+            - table [ref=f6e3]:
+              - rowgroup [ref=f6e4]:
+                - row [ref=f6e5]:
+                  - columnheader [ref=f6e6]:
+                    - link "EPOCH" [ref=f6e7] [cursor=pointer]:
+                      - /url: "#"
+                  - columnheader [ref=f6e8]:
+                    - link "IS_GROUP_MESSAGE" [ref=f6e9] [cursor=pointer]:
+                      - /url: "#"
+                  - columnheader [ref=f6e10]:
+                    - link "ID" [ref=f6e11] [cursor=pointer]:
+                      - /url: "#"
+                  - columnheader [ref=f6e12]:
+                    - link "TIMESTAMP" [ref=f6e13] [cursor=pointer]:
+                      - /url: "#"
+                  - columnheader [ref=f6e14]:
+                    - link "GROUP_ID" [ref=f6e15] [cursor=pointer]:
+                      - /url: "#"
+                  - columnheader [ref=f6e16]:
+                    - link "RECIPIENT_ID" [ref=f6e17] [cursor=pointer]:
+                      - /url: "#"
+                  - columnheader [ref=f6e18]:
+                    - link "SENDER_ID" [ref=f6e19] [cursor=pointer]:
+                      - /url: "#"
+                  - columnheader [ref=f6e20]:
+                    - link "CIPHERTEXT" [ref=f6e21] [cursor=pointer]:
+                      - /url: "#"
+                  - columnheader [ref=f6e22]:
+                    - link "PLAINTEXT" [ref=f6e23] [cursor=pointer]:
+                      - /url: "#"
+                  - columnheader [ref=f6e24]:
+                    - link "RATCHET_HEADER" [ref=f6e25] [cursor=pointer]:
+                      - /url: "#"
+                  - columnheader [ref=f6e26]:
+                    - link "SIGNATURE" [ref=f6e27] [cursor=pointer]:
+                      - /url: "#"
+                - row [ref=f6e28]:
+                  - cell "0" [ref=f6e29]
+                  - cell "FALSE" [ref=f6e30]
+                  - cell "1" [ref=f6e31]
+                  - cell "2026-09-12 17:12:44.921368+00" [ref=f6e32]
+                  - cell "null" [ref=f6e33]
+                  - cell "iris_test" [ref=f6e34]
+                  - cell "henry_test" [ref=f6e35]
+                  - cell "ac2e14d2eb89e944befc4fba3f57fa598da728f7f48a1439f637e15417ec30f8190f01edf2b1ccbf8196dc2f3a04ef419671c092fb08533388cc4d9ff280a3b0006c44c5013ca39a66699748ca467381" [ref=f6e36]
+                  - cell "null" [ref=f6e37]
+                  - cell "675fbb120e4cca407dea7b8e340244f4e8ec80852e4acb2a61a83ccec517ff010000000000000000b0149d594162f3ff789b10c195213f7d4bc4ac14bc2c62205ff09f8238fc4819834c7df93ecf72be5b1c1e699091f6b9b34256f083a53d26d5a337a4e7ae3b369428dcda8bdb1edcb172701fc832f6643e7c460ee587a6bf2a0621612130f1d5" [ref=f6e38]
+                  - cell "40c3165aeeff252da8f817bf9519a6a1d57cb529d971cd0c99bd05da2b963113ae2b07f53ef85e30a7ed7a048ad7a6dd3dd70bd3f8ec9b5d82090bc99285ab03" [ref=f6e39]
+                - row [ref=f6e40]:
+                  - cell "0" [ref=f6e41]
+                  - cell "FALSE" [ref=f6e42]
+                  - cell "2" [ref=f6e43]
+                  - cell "2026-09-12 17:14:25.769075+00" [ref=f6e44]
+                  - cell "null" [ref=f6e45]
+                  - cell "henry_test" [ref=f6e46]
+                  - cell "iris_test" [ref=f6e47]
+                  - cell "630411d361f1cf2041f1d949a0d9d61f1254fb02a1d55900be609e2ab6b7cb299fdff153651f0983e76d41b997d6b9257f36f651777afe7b850f4df87293593e0013aae2635843444eed93bd0b269da6214d98d9" [ref=f6e48]
+                  - cell "null" [ref=f6e49]
+                  - cell "b188bc4a082fecff26cd1806a2cffebf7bb149a46190118137011e3893c8ad0a00000000000000008e13165253f4ee9e6a0450edcef6d665cd3fd5bdcb6efd663a342aca6840d175a9a7d12bf994a0486c349f2d793e02c0a56695b478c9778128fd04a9913ee063be9b622a740e3127ca44822ee92dfb3474398e362328dc0b03ebc2a745d68776" [ref=f6e50]
+                  - cell "d36bf1ab295f62a5694471b45e977c0d4359c408f305c2c2a05afcec7458f2fb493ab27bd8a05e255549e3b7ad70b9f5fe1bdbaac6fbf2816cb6a07fe64d2603" [ref=f6e51]
+                - row [ref=f6e52]:
+                  - cell "0" [ref=f6e53]
+                  - cell "FALSE" [ref=f6e54]
+                  - cell "3" [ref=f6e55]
+                  - cell "2026-09-12 17:14:58.808127+00" [ref=f6e56]
+                  - cell "null" [ref=f6e57]
+                  - cell "iris_test" [ref=f6e58]
+                  - cell "henry_test" [ref=f6e59]
+                  - cell "bea04cc85ba94531fc3de5a205ca1ec51fb0b1a10d7d076ed61fa2cd7e2268c85fd9e666c0a3727c9ef513aa0635b0b646f35e6580bbce6a2fe1ae14e750bd081237ad8548ff15a6c8f20f8cc1a9d2ab084e4423410eeff3efd679cea289102c2a2de504386fd015" [ref=f6e60]
+                  - cell "null" [ref=f6e61]
+                  - cell "675fbb120e4cca407dea7b8e340244f4e8ec80852e4acb2a61a83ccec517ff010000000000000001b0149d594162f3ff789b10c195213f7d4bc4ac14bc2c62205ff09f8238fc4819834c7df93ecf72be5b1c1e699091f6b9b34256f083a53d26d5a337a4e7ae3b369428dcda8bdb1edcb172701fc832f6643e7c460ee587a6bf2a0621612130f1d5" [ref=f6e62]
+                  - cell "8220b447a63e8cb820319a6adade9df90892946075a69207a9746113f5956c3a5bded83a175fe6a2686567e8ec67c3d785532cb8fa740dab2a0add576679e102" [ref=f6e63]
+            - text: (3 rows, 2 ms)
+            - button "Edit" [ref=f6e65]
+          - table:
+            - rowgroup

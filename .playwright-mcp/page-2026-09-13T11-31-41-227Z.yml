@@ -1,0 +1,35 @@
+- generic [ref=f3e19]:
+  - generic [ref=f3e20]:
+    - generic [ref=f3e21]:
+      - heading "🔐 SecureChat" [level=2] [ref=f3e22]
+      - generic [ref=f3e23]: jade_test
+    - textbox "🔍 Search contacts..." [ref=f3e26]
+    - button "+ New Encrypted Chat" [ref=f3e27] [cursor=pointer]
+    - generic [ref=f3e28]:
+      - generic [ref=f3e29]: Contacts
+      - generic [ref=f3e30] [cursor=pointer]:
+        - generic [ref=f3e31]: K
+        - generic [ref=f3e32]:
+          - generic [ref=f3e33]: kai_test
+          - generic [ref=f3e34]: 🔓 Tap to encrypt
+    - button "+ New Group" [ref=f3e35] [cursor=pointer]
+    - generic [ref=f3e36]:
+      - generic [ref=f3e37]: Groups
+      - generic [ref=f3e38] [cursor=pointer]:
+        - generic [ref=f3e39]: T
+        - generic [ref=f3e40]:
+          - generic [ref=f3e41]: Thesis Persistence Test
+          - generic [ref=f3e42]: 🔒 2 members
+    - button "Sign Out" [ref=f3e43] [cursor=pointer]
+  - generic [ref=f3e45]:
+    - generic [ref=f3e46]: 🛡️
+    - heading "SecureChat E2EE" [level=2] [ref=f3e47]
+    - paragraph [ref=f3e48]: Select a contact to start an end-to-end encrypted conversation. All messages are protected by the Signal Protocol.
+    - generic [ref=f3e49]:
+      - generic [ref=f3e50]: Signal Protocol
+      - generic [ref=f3e51]: X3DH Key Agreement
+      - generic [ref=f3e52]: Double Ratchet
+      - generic [ref=f3e53]: AES-256-GCM
+      - generic [ref=f3e54]: Ed25519 Signatures
+      - generic [ref=f3e55]: TreeKEM Groups
+      - generic [ref=f3e56]: HKDF-SHA256

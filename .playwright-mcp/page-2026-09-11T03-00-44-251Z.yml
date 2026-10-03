@@ -1,0 +1,27 @@
+- generic [ref=f2e19]:
+  - generic [ref=f2e20]:
+    - generic [ref=f2e21]:
+      - heading "🔐 SecureChat" [level=2] [ref=f2e22]
+      - generic [ref=f2e23]: carol_test
+    - textbox "🔍 Search contacts..." [ref=f2e26]
+    - button "+ New Encrypted Chat" [ref=f2e27] [cursor=pointer]
+    - generic [ref=f2e28]:
+      - generic [ref=f2e29]: Contacts
+      - generic [ref=f2e30] [cursor=pointer]:
+        - generic [ref=f2e31]: D
+        - generic [ref=f2e32]:
+          - generic [ref=f2e33]: dave_test
+          - generic [ref=f2e34]: 🔒 E2EE Active
+    - button "Sign Out" [ref=f2e35] [cursor=pointer]
+  - generic [ref=f2e49]:
+    - generic [ref=f2e50]:
+      - generic [ref=f2e51]:
+        - generic [ref=f2e52]: D
+        - generic [ref=f2e53]:
+          - heading "dave_test" [level=3] [ref=f2e54]
+          - generic [ref=f2e55]: 🔒 End-to-end encrypted
+      - button "🔑" [ref=f2e57] [cursor=pointer]
+    - generic [ref=f2e58]: 🔐 Messages are end-to-end encrypted using the Signal Protocol. No one outside this chat can read them.
+    - generic [ref=f2e60]:
+      - textbox "Type an encrypted message..." [ref=f2e61]
+      - button "➤" [disabled] [ref=f2e62]

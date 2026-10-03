@@ -1,0 +1,47 @@
+- generic [ref=f1e19]:
+  - generic [ref=f1e20]:
+    - generic [ref=f1e21]:
+      - heading "🔐 SecureChat" [level=2] [ref=f1e22]
+      - generic [ref=f1e23]: jade_test
+    - textbox "🔍 Search contacts..." [ref=f1e26]
+    - button "+ New Encrypted Chat" [ref=f1e27] [cursor=pointer]
+    - generic [ref=f1e28]:
+      - generic [ref=f1e29]: Contacts
+      - generic [ref=f1e30] [cursor=pointer]:
+        - generic [ref=f1e31]: K
+        - generic [ref=f1e32]:
+          - generic [ref=f1e33]: kai_test
+          - generic [ref=f1e34]: 🔓 Tap to encrypt
+    - button "+ New Group" [ref=f1e35] [cursor=pointer]
+    - generic [ref=f1e36]:
+      - generic [ref=f1e37]: Groups
+      - generic [ref=f1e38] [cursor=pointer]:
+        - generic [ref=f1e39]: P
+        - generic [ref=f1e40]:
+          - generic [ref=f1e41]: Persistence Test Group
+          - generic [ref=f1e42]: 🔒 2 members
+    - button "Sign Out" [ref=f1e43] [cursor=pointer]
+  - generic [ref=f1e57]:
+    - generic [ref=f1e58]:
+      - generic [ref=f1e59]:
+        - generic [ref=f1e60]: P
+        - generic [ref=f1e61]:
+          - heading "Persistence Test Group" [level=3] [ref=f1e62]
+          - generic [ref=f1e63]: 🔒 TreeKEM group · 2 members · epoch 1
+      - button "👥" [ref=f1e65] [cursor=pointer]
+    - generic [ref=f1e66]:
+      - generic [ref=f1e67]: 🔐 Group messages are encrypted with TreeKEM using the group's current epoch key.
+      - generic [ref=f1e68]:
+        - generic [ref=f1e69]: Hello group, this is jade's first message!
+        - generic [ref=f1e70]:
+          - generic [ref=f1e71]: 03:51 AM
+          - generic [ref=f1e72]: 🔒
+      - generic [ref=f1e73]:
+        - generic [ref=f1e74]: kai_test
+        - generic [ref=f1e75]: Hi jade, kai here, got your message!
+        - generic [ref=f1e76]:
+          - generic [ref=f1e77]: 03:52 AM
+          - generic [ref=f1e78]: 🔒
+    - generic [ref=f1e79]:
+      - textbox "Message the group..." [ref=f1e80]
+      - button "➤" [disabled] [ref=f1e81]

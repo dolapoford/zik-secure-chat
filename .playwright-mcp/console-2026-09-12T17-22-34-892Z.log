@@ -1,0 +1,36 @@
+[     287ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=fdad505b:14333
+[     501ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5173/:0
+[  239822ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  239822ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:1009
+[  239829ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/groups/mine?username=iris_test:0
+[  239833ms] [LOG] Failed to load groups @ http://localhost:5173/src/App.jsx:1019
+[  241644ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=iris_test&user2=henry_test:0
+[  241645ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:1066
+[  243901ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=iris_test&user2=henry_test:0
+[  243902ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:1066
+[  244800ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  244804ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:1009
+[  244811ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/groups/mine?username=iris_test:0
+[  244818ms] [LOG] Failed to load groups @ http://localhost:5173/src/App.jsx:1019
+[  245677ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=iris_test&user2=henry_test:0
+[  245691ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:1066
+[  247681ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=iris_test&user2=henry_test:0
+[  247681ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:1066
+[  249638ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=iris_test&user2=henry_test:0
+[  249638ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:1066
+[  249822ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  249826ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:1009
+[  249838ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/groups/mine?username=iris_test:0
+[  249840ms] [LOG] Failed to load groups @ http://localhost:5173/src/App.jsx:1019
+[  251651ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=iris_test&user2=henry_test:0
+[  251651ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:1066
+[  253956ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=iris_test&user2=henry_test:0
+[  253964ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:1066
+[  254820ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  254820ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:1009
+[  254821ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/groups/mine?username=iris_test:0
+[  254822ms] [LOG] Failed to load groups @ http://localhost:5173/src/App.jsx:1019
+[  255650ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=iris_test&user2=henry_test:0
+[  255653ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:1066
+[  257645ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/chat/history?user1=iris_test&user2=henry_test:0
+[  257645ms] [LOG] Failed to load chat history @ http://localhost:5173/src/App.jsx:1066

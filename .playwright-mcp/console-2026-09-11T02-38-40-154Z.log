@@ -1,0 +1,457 @@
+[     539ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=8706e60d:14333
+[     730ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5173/:0
+[  139228ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:5173/@vite/client:998
+[  139738ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  139739ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  144732ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  144732ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  149739ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  149739ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  154737ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  154738ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  159732ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  159733ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  164745ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  164745ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  169736ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  169736ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  174733ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  174733ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  179740ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  179740ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  184739ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  184739ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  189734ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  189734ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  194734ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  194734ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  199740ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  199741ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  204735ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  204735ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  209734ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  209734ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  214734ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  214734ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  219736ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  219736ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  224732ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  224732ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  229742ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  229742ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  234736ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  234736ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  239731ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  239731ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  244742ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  244742ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  249734ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  249735ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  254732ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  254732ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  259743ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  259743ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  264736ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  264736ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  269734ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  269734ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  274738ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  274738ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  279739ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  279739ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  284735ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  284735ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  289732ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  289732ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  294740ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  294740ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  299735ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  299735ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  304742ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  304742ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  309741ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  309741ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  314734ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  314734ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  319746ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  319746ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  324736ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  324736ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  329738ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  329738ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  334738ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  334739ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  339743ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  339743ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  344733ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  344733ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  349747ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  349755ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  354735ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  354735ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  359745ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  359745ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  364743ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  364743ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  370163ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  370164ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  374743ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  374746ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  382742ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  382742ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  384743ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  384744ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  389740ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  389740ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  394848ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  394848ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  399738ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  399738ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  404743ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  404743ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  409738ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  409738ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  414745ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  414746ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  419746ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  419746ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  424738ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  424738ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  429741ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  429741ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  434742ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  434743ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  439740ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  439743ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  444731ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  444731ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  449733ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  449733ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  454746ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  454746ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  459736ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  459736ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  464738ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  464739ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  469745ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  469745ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  474734ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  474734ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  479737ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  479737ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  484734ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  484734ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  489740ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  489740ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  494735ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  494735ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  499742ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  499742ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  504743ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  504744ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  509739ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  509739ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  514740ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  514740ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  519743ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  519743ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  524773ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  524773ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  529743ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  529744ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  534746ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  534746ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  539740ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  539740ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  544738ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  544738ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  549733ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  549733ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  554738ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  554738ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  559743ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  559743ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  564738ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  564738ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  569740ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  569740ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  574732ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  574732ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  579737ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  579737ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  584737ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  584738ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  589735ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  589735ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  594739ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  594739ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  599743ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  599744ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  604732ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  604732ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  609749ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  609749ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  614740ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  614740ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  619748ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  619748ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  624733ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  624733ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  629741ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  629741ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  634741ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  634741ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  639735ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  639736ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  644741ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  644742ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  649733ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  649733ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  654740ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  654741ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  659746ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  659746ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  664735ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  664735ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  669743ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  669743ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  674735ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  674735ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  679740ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  679740ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  684733ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  684733ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  689742ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  689742ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  694741ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  694741ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  699735ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  699735ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  704731ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  704731ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  709735ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  709735ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  714736ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  714736ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  719761ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  719761ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  724742ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  724742ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  729742ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  729742ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  734732ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  734732ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  739742ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  739742ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  744742ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  744742ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  749740ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  749740ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  754733ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  754733ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  759745ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  759745ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  764732ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  764732ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  769734ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  769734ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  774740ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  774740ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  779731ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  779731ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  784732ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  784732ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  789738ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  789738ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  794742ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  794742ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  799740ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  799740ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  804741ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  804741ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  809736ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  809736ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  814738ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  814739ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  819744ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  819744ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  824733ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  824733ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  829736ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  829736ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  834744ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  834744ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  839740ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  839740ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  844744ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  844744ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  849745ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  849745ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  854734ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  854734ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  859738ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  859738ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  864739ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  864739ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  869738ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  869738ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  874739ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  874739ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  879735ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  879735ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  884740ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  884740ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  889734ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  889735ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  894745ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  894746ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  899740ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  899762ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  904735ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  904735ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  909747ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  909748ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  914732ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  914732ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  919790ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  919790ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  924738ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  924738ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  929739ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  929739ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  934745ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  934745ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  939732ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  939732ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  944733ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  944733ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  949748ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  949748ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  954732ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  954732ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  959738ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  959738ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  964739ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  964739ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  969733ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  969733ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  974738ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  974738ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  979734ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  979734ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  984745ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  984745ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  989742ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  989742ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  994745ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  994746ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[  999732ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[  999732ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1004734ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1004734ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1009746ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1009747ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1014735ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1014736ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1019832ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1019833ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1024740ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1024740ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1029734ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1029735ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1034735ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1034735ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1039749ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1039753ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1044745ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1044745ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1049737ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1049737ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1054743ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1054743ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1059732ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1059732ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1064742ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1064742ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1069745ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1069745ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1074737ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1074737ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1079743ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1079743ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1084741ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1084741ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1089736ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1089736ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1094740ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1094740ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1099747ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1099747ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1104737ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1104737ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1109743ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1109743ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1114747ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1114747ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1119742ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1119742ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1124736ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1124737ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1129740ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1129740ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1135013ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1135013ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1139747ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1139747ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1144740ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1144740ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1149746ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1149748ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1154735ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1154735ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1159802ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1159802ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1164741ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1164741ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1169742ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1169742ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1174736ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1174736ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1179741ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1179741ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1184733ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1184733ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1189739ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1189739ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1194744ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1194747ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1200974ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1200976ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1204736ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1204737ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1209740ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1209740ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1214738ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1214739ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1219745ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1219745ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1224740ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1224741ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1229738ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1229738ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1237747ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1237747ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1240503ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1240503ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1244758ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1244759ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1249739ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1249739ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1254732ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1254732ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1259792ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1259792ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1265305ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8080/api/auth/users:0
+[ 1265305ms] [LOG] Failed to load contacts @ http://localhost:5173/src/App.jsx:588
+[ 1269422ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=090c83cd:14333
+[ 1269819ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5173/:0

@@ -1,0 +1,96 @@
+- generic [ref=f2e1]:
+  - iframe [ref=f2e2]:
+    - table [ref=f3e3]:
+      - rowgroup [ref=f3e4]:
+        - row [ref=f3e5]:
+          - cell [ref=f3e6]:
+            - link [ref=f3e7] [cursor=pointer]:
+              - /url: logout.do?jsessionid=5c92aa8048002d2e3e4142da9b7d28cb
+              - img "Disconnect" [ref=f3e8]
+            - link [ref=f3e9] [cursor=pointer]:
+              - /url: tables.do?jsessionid=5c92aa8048002d2e3e4142da9b7d28cb
+              - img "Refresh" [ref=f3e10]
+          - cell [ref=f3e11]:
+            - checkbox [checked] [ref=f3e12]
+          - cell "Auto commit" [ref=f3e13]
+          - cell [ref=f3e14]:
+            - link [ref=f3e15] [cursor=pointer]:
+              - /url: query.do?jsessionid=5c92aa8048002d2e3e4142da9b7d28cb&sql=ROLLBACK
+              - img "Rollback" [ref=f3e16]
+            - link [ref=f3e17] [cursor=pointer]:
+              - /url: query.do?jsessionid=5c92aa8048002d2e3e4142da9b7d28cb&sql=COMMIT
+              - img "Commit" [ref=f3e18]
+          - cell "Max rows:" [ref=f3e19]
+          - cell "1000" [ref=f3e20]:
+            - combobox [ref=f3e21]:
+              - option "All"
+              - option "10000"
+              - option "1000" [selected]
+              - option "100"
+              - option "10"
+          - cell [ref=f3e22]:
+            - link [ref=f3e23] [cursor=pointer]:
+              - /url: javascript:parent.h2query.submitAll();
+              - img "Run" [ref=f3e24]
+          - cell [ref=f3e25]:
+            - link [ref=f3e26] [cursor=pointer]:
+              - /url: javascript:parent.h2query.submitSelected();
+              - img "Run Selected" [ref=f3e27]
+          - cell [ref=f3e28]:
+            - link [ref=f3e29] [cursor=pointer]:
+              - /url: query.do?jsessionid=5c92aa8048002d2e3e4142da9b7d28cb&sql=@cancel.
+              - img "Cancel the current statement" [ref=f3e30]
+            - link [ref=f3e31] [cursor=pointer]:
+              - /url: query.do?jsessionid=5c92aa8048002d2e3e4142da9b7d28cb&sql=@history.
+              - img "Command history" [ref=f3e32]
+          - cell "Auto complete Off" [ref=f3e33]:
+            - text: Auto complete
+            - combobox [ref=f3e34]:
+              - option "Off" [selected]
+              - option "Normal"
+              - option "Full"
+          - cell "Auto select On" [ref=f3e35]:
+            - text: Auto select
+            - combobox [ref=f3e36]:
+              - option "Off"
+              - option "On" [selected]
+          - cell [ref=f3e37]:
+            - link [ref=f3e38] [cursor=pointer]:
+              - /url: help.jsp?jsessionid=5c92aa8048002d2e3e4142da9b7d28cb
+              - img "Help" [ref=f3e39]
+  - generic [ref=f2e3]:
+    - iframe [ref=f2e4]:
+      - generic [ref=f4e1]:
+        - generic [ref=f4e2]:
+          - text: jdbc:h2:mem:securechatdb
+          - link "MESSAGES" [ref=f4e6] [cursor=pointer]:
+            - /url: javascript:ins('MESSAGES',true)
+          - link "PREKEY_BUNDLES" [ref=f4e9] [cursor=pointer]:
+            - /url: javascript:ins('PREKEY_BUNDLES',true)
+          - link "USERS" [ref=f4e12] [cursor=pointer]:
+            - /url: javascript:ins('USERS',true)
+          - text: INFORMATION_SCHEMA Users H2 2.2.224 (2023-09-17)
+        - paragraph
+    - generic [ref=f2e5]:
+      - iframe [active] [ref=f2e6]:
+        - generic [ref=f5e2]:
+          - generic [ref=f5e3]:
+            - button "Run" [ref=f5e4]
+            - button "Run Selected" [ref=f5e5]
+            - button "Auto complete" [ref=f5e6]
+            - button "Clear" [ref=f5e7]
+            - text: "SQL statement:"
+          - textbox [active] [ref=f5e8]: SELECT ID, SENDER_ID, GROUP_ID, GROUP_MESSAGE, EPOCH, PLAINTEXT FROM MESSAGES WHERE GROUP_MESSAGE=TRUE;
+      - iframe [ref=f2e7]:
+        - generic [ref=f6e1]:
+          - generic [ref=f6e2]:
+            - text: SELECT ID, SENDER_ID, GROUP_ID, GROUP_MESSAGE, EPOCH, PLAINTEXT FROM MESSAGES WHERE GROUP_MESSAGE=TRUE;
+            - generic [ref=f6e3]:
+              - 'link "Column \"GROUP_MESSAGE\" not found; SQL statement: SELECT ID, SENDER_ID, GROUP_ID, GROUP_MESSAGE, EPOCH, PLAINTEXT FROM MESSAGES WHERE GROUP_MESSAGE=TRUE [42122-224]" [ref=f6e4] [cursor=pointer]':
+                - /url: "#"
+                - text: Column "GROUP_MESSAGE" not found; SQL statement:SELECT ID, SENDER_ID, GROUP_ID, GROUP_MESSAGE, EPOCH, PLAINTEXT FROM MESSAGES WHERE GROUP_MESSAGE=TRUE [42122-224]
+              - text: 42S22/42122
+              - link "(Help)" [ref=f6e5] [cursor=pointer]:
+                - /url: https://h2database.com/javadoc/org/h2/api/ErrorCode.html#c42122
+          - table:
+            - rowgroup

@@ -1,0 +1,135 @@
+- generic [active] [ref=f2e1]:
+  - iframe [ref=f2e2]:
+    - table [ref=f3e3]:
+      - rowgroup [ref=f3e4]:
+        - row [ref=f3e5]:
+          - cell [ref=f3e6]:
+            - link [ref=f3e7] [cursor=pointer]:
+              - /url: logout.do?jsessionid=5c92aa8048002d2e3e4142da9b7d28cb
+              - img "Disconnect" [ref=f3e8]
+            - link [ref=f3e9] [cursor=pointer]:
+              - /url: tables.do?jsessionid=5c92aa8048002d2e3e4142da9b7d28cb
+              - img "Refresh" [ref=f3e10]
+          - cell [ref=f3e11]:
+            - checkbox [checked] [ref=f3e12]
+          - cell "Auto commit" [ref=f3e13]
+          - cell [ref=f3e14]:
+            - link [ref=f3e15] [cursor=pointer]:
+              - /url: query.do?jsessionid=5c92aa8048002d2e3e4142da9b7d28cb&sql=ROLLBACK
+              - img "Rollback" [ref=f3e16]
+            - link [ref=f3e17] [cursor=pointer]:
+              - /url: query.do?jsessionid=5c92aa8048002d2e3e4142da9b7d28cb&sql=COMMIT
+              - img "Commit" [ref=f3e18]
+          - cell "Max rows:" [ref=f3e19]
+          - cell "1000" [ref=f3e20]:
+            - combobox [ref=f3e21]:
+              - option "All"
+              - option "10000"
+              - option "1000" [selected]
+              - option "100"
+              - option "10"
+          - cell [ref=f3e22]:
+            - link [ref=f3e23] [cursor=pointer]:
+              - /url: javascript:parent.h2query.submitAll();
+              - img "Run" [ref=f3e24]
+          - cell [ref=f3e25]:
+            - link [ref=f3e26] [cursor=pointer]:
+              - /url: javascript:parent.h2query.submitSelected();
+              - img "Run Selected" [ref=f3e27]
+          - cell [ref=f3e28]:
+            - link [ref=f3e29] [cursor=pointer]:
+              - /url: query.do?jsessionid=5c92aa8048002d2e3e4142da9b7d28cb&sql=@cancel.
+              - img "Cancel the current statement" [ref=f3e30]
+            - link [ref=f3e31] [cursor=pointer]:
+              - /url: query.do?jsessionid=5c92aa8048002d2e3e4142da9b7d28cb&sql=@history.
+              - img "Command history" [ref=f3e32]
+          - cell "Auto complete Off" [ref=f3e33]:
+            - text: Auto complete
+            - combobox [ref=f3e34]:
+              - option "Off" [selected]
+              - option "Normal"
+              - option "Full"
+          - cell "Auto select On" [ref=f3e35]:
+            - text: Auto select
+            - combobox [ref=f3e36]:
+              - option "Off"
+              - option "On" [selected]
+          - cell [ref=f3e37]:
+            - link [ref=f3e38] [cursor=pointer]:
+              - /url: help.jsp?jsessionid=5c92aa8048002d2e3e4142da9b7d28cb
+              - img "Help" [ref=f3e39]
+  - generic [ref=f2e3]:
+    - iframe [ref=f2e4]:
+      - generic [ref=f4e1]:
+        - generic [ref=f4e2]:
+          - text: jdbc:h2:mem:securechatdb
+          - link "MESSAGES" [ref=f4e6] [cursor=pointer]:
+            - /url: javascript:ins('MESSAGES',true)
+          - link "PREKEY_BUNDLES" [ref=f4e9] [cursor=pointer]:
+            - /url: javascript:ins('PREKEY_BUNDLES',true)
+          - link "USERS" [ref=f4e12] [cursor=pointer]:
+            - /url: javascript:ins('USERS',true)
+          - text: INFORMATION_SCHEMA Users H2 2.2.224 (2023-09-17)
+        - paragraph
+    - generic [ref=f2e5]:
+      - iframe [ref=f2e6]:
+        - generic [ref=f5e2]:
+          - generic [ref=f5e3]:
+            - button "Run" [ref=f5e4]
+            - button "Run Selected" [ref=f5e5]
+            - button "Auto complete" [ref=f5e6]
+            - button "Clear" [ref=f5e7]
+            - text: "SQL statement:"
+          - textbox [ref=f5e8]
+      - iframe [ref=f2e7]:
+        - generic [ref=f6e1]:
+          - generic [ref=f6e2]:
+            - heading "Important Commands" [level=3] [ref=f6e3]
+            - table [ref=f6e4]:
+              - rowgroup [ref=f6e5]:
+                - row [ref=f6e6]:
+                  - cell [ref=f6e7]:
+                    - img "Help" [ref=f6e8]
+                  - cell [ref=f6e9]
+                  - cell "Displays this Help Page" [ref=f6e10]
+                - row [ref=f6e11]:
+                  - cell [ref=f6e12]:
+                    - img "Command history" [ref=f6e13]
+                  - cell [ref=f6e14]
+                  - cell "Shows the Command History" [ref=f6e15]
+                - row [ref=f6e16]:
+                  - cell [ref=f6e17]:
+                    - img "Run" [ref=f6e18]
+                  - cell "Ctrl+Enter" [ref=f6e19]
+                  - cell "Executes the current SQL statement" [ref=f6e20]
+                - row [ref=f6e21]:
+                  - cell [ref=f6e22]:
+                    - img "Run Selected" [ref=f6e23]
+                  - cell "Shift+Enter" [ref=f6e24]
+                  - cell "Executes the SQL statement defined by the text selection" [ref=f6e25]
+                - row [ref=f6e26]:
+                  - cell [ref=f6e27]
+                  - cell "Ctrl+Space" [ref=f6e28]
+                  - cell "Auto complete" [ref=f6e29]
+                - row [ref=f6e30]:
+                  - cell [ref=f6e31]:
+                    - img "Disconnect" [ref=f6e32]
+                  - cell [ref=f6e33]
+                  - cell "Disconnects from the database" [ref=f6e34]
+            - heading "Sample SQL Script" [level=3] [ref=f6e35]
+            - table [ref=f6e36]:
+              - rowgroup [ref=f6e37]:
+                - row [ref=f6e38]:
+                  - cell [ref=f6e39]:
+                    - link "Delete the table if it exists Create a new table with ID and NAME columns Add a new row Add another row Query the table Change data in a row Remove a row" [ref=f6e40] [cursor=pointer]:
+                      - /url: javascript:set('DROP TABLE IF EXISTS TEST;\rCREATE TABLE TEST(ID INT PRIMARY KEY, NAME VARCHAR(255));\rINSERT INTO TEST VALUES(1, \'Hello\');\rINSERT INTO TEST VALUES(2, \'World\');\rSELECT * FROM TEST ORDER BY ID;\rUPDATE TEST SET NAME=\'Hi\' WHERE ID=1;\rDELETE FROM TEST WHERE ID=2;');
+                  - cell "DROP TABLE IF EXISTS TEST; CREATE TABLE TEST(ID INT PRIMARY KEY, NAME VARCHAR(255)); INSERT INTO TEST VALUES(1, 'Hello'); INSERT INTO TEST VALUES(2, 'World'); SELECT * FROM TEST ORDER BY ID; UPDATE TEST SET NAME='Hi' WHERE ID=1; DELETE FROM TEST WHERE ID=2;" [ref=f6e41]
+                - row [ref=f6e42]:
+                  - cell [ref=f6e43]:
+                    - link "Help" [ref=f6e44] [cursor=pointer]:
+                      - /url: javascript:set('HELP ');
+                  - cell "HELP ..." [ref=f6e45]
+            - heading "Adding Database Drivers" [level=3] [ref=f6e46]
+            - paragraph [ref=f6e47]: "Additional database drivers can be registered by adding the Jar file location of the driver to the environment variables H2DRIVERS or CLASSPATH. Example (Windows): to add the database driver library C:/Programs/hsqldb/lib/hsqldb.jar, set the environment variable H2DRIVERS to C:/Programs/hsqldb/lib/hsqldb.jar."
+          - table:
+            - rowgroup

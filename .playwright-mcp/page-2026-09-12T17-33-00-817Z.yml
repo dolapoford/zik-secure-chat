@@ -1,0 +1,45 @@
+- generic [ref=f1e19]:
+  - generic [ref=f1e20]:
+    - generic [ref=f1e21]:
+      - heading "🔐 SecureChat" [level=2] [ref=f1e22]
+      - generic [ref=f1e23]: henry_fix_test
+    - textbox "🔍 Search contacts..." [ref=f1e26]
+    - button "+ New Encrypted Chat" [ref=f1e27] [cursor=pointer]
+    - generic [ref=f1e28]:
+      - generic [ref=f1e29]: Contacts
+      - generic [ref=f1e30] [cursor=pointer]:
+        - generic [ref=f1e31]: H
+        - generic [ref=f1e32]:
+          - generic [ref=f1e33]: henry_test
+          - generic [ref=f1e34]: 🔓 Tap to encrypt
+      - generic [ref=f1e35] [cursor=pointer]:
+        - generic [ref=f1e36]: I
+        - generic [ref=f1e37]:
+          - generic [ref=f1e38]: iris_fix_test
+          - generic [ref=f1e39]: 🔒 E2EE Active
+    - button "+ New Group" [ref=f1e40] [cursor=pointer]
+    - generic [ref=f1e41]:
+      - generic [ref=f1e42]: Groups
+      - generic [ref=f1e43]:
+        - generic [ref=f1e44]: 🔐
+        - generic [ref=f1e45]: No groups yet
+        - generic [ref=f1e46]: Create a group to start a TreeKEM-encrypted conversation
+    - button "Sign Out" [ref=f1e47] [cursor=pointer]
+  - generic [ref=f1e61]:
+    - generic [ref=f1e62]:
+      - generic [ref=f1e63]:
+        - generic [ref=f1e64]: I
+        - generic [ref=f1e65]:
+          - heading "iris_fix_test" [level=3] [ref=f1e66]
+          - generic [ref=f1e67]: 🔒 End-to-end encrypted
+      - button "🔑" [ref=f1e69] [cursor=pointer]
+    - generic [ref=f1e70]:
+      - generic [ref=f1e71]: 🔐 Messages are end-to-end encrypted using the Signal Protocol. No one outside this chat can read them.
+      - generic [ref=f1e72]:
+        - generic [ref=f1e73]: "Fix verification: sender should see this text, not a placeholder."
+        - generic [ref=f1e74]:
+          - generic [ref=f1e75]: 10:32 AM
+          - generic [ref=f1e76]: 🔒
+    - generic [ref=f1e77]:
+      - textbox "Type an encrypted message..." [ref=f1e78]
+      - button "➤" [disabled] [ref=f1e79]

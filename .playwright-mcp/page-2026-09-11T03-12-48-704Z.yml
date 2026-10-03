@@ -1,0 +1,50 @@
+- generic [ref=f4e19]:
+  - generic [ref=f4e20]:
+    - generic [ref=f4e21]:
+      - heading "🔐 SecureChat" [level=2] [ref=f4e22]
+      - generic [ref=f4e23]: erin_test
+    - textbox "🔍 Search contacts..." [ref=f4e26]
+    - button "+ New Encrypted Chat" [ref=f4e27] [cursor=pointer]
+    - generic [ref=f4e28]:
+      - generic [ref=f4e29]: Contacts
+      - generic [ref=f4e30] [cursor=pointer]:
+        - generic [ref=f4e31]: F
+        - generic [ref=f4e32]:
+          - generic [ref=f4e33]: frank_test
+          - generic [ref=f4e34]: 🔓 Tap to encrypt
+      - generic [ref=f4e35] [cursor=pointer]:
+        - generic [ref=f4e36]: G
+        - generic [ref=f4e37]:
+          - generic [ref=f4e38]: grace_test
+          - generic [ref=f4e39]: 🔓 Tap to encrypt
+    - button "+ New Group" [active] [ref=f4e40] [cursor=pointer]
+    - generic [ref=f4e41]:
+      - generic [ref=f4e42]: Groups
+      - generic [ref=f4e43]:
+        - generic [ref=f4e44]: 🔐
+        - generic [ref=f4e45]: No groups yet
+        - generic [ref=f4e46]: Create a group to start a TreeKEM-encrypted conversation
+    - button "Sign Out" [ref=f4e47] [cursor=pointer]
+  - generic [ref=f4e49]:
+    - generic [ref=f4e50]: 🛡️
+    - heading "SecureChat E2EE" [level=2] [ref=f4e51]
+    - paragraph [ref=f4e52]: Select a contact to start an end-to-end encrypted conversation. All messages are protected by the Signal Protocol.
+    - generic [ref=f4e53]:
+      - generic [ref=f4e54]: Signal Protocol
+      - generic [ref=f4e55]: X3DH Key Agreement
+      - generic [ref=f4e56]: Double Ratchet
+      - generic [ref=f4e57]: AES-256-GCM
+      - generic [ref=f4e58]: Ed25519 Signatures
+      - generic [ref=f4e59]: TreeKEM Groups
+      - generic [ref=f4e60]: HKDF-SHA256
+  - generic [ref=f4e62]:
+    - heading "➕ New Encrypted Group" [level=3] [ref=f4e63]
+    - generic [ref=f4e64]:
+      - generic [ref=f4e65]:
+        - generic [ref=f4e66]: Group Name
+        - textbox "e.g. Project Team" [ref=f4e67]
+      - generic [ref=f4e68]:
+        - generic [ref=f4e69]: Members (comma-separated usernames)
+        - textbox "bob_test, carol_test" [ref=f4e70]
+      - button "Create Group" [ref=f4e71] [cursor=pointer]
+    - button "Cancel" [ref=f4e72] [cursor=pointer]

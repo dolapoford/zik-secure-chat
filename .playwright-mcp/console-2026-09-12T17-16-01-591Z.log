@@ -1,0 +1,2 @@
+[     255ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:8080/h2-console/login.jsp?jsessionid=37f3fb09c3e3f5c5d255ea7e8a914100:0
+[     337ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ http://localhost:8080/favicon.ico:0
